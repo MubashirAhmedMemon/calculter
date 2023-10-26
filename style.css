@@ -43,9 +43,12 @@
 /* Add these media queries to make your design responsive */
 /* Media query for screens with a maximum width of 600px */
 @media screen and (max-width: 600px) {
-    .Calculater {
-      width: 300% !important;
+   .Calculater {
+      width: 300px;
       padding: 0 !important;
+      margin-top: 20px !important;
+      border-radius: 5px;
+
     }
     .main-div{
         background-color: white;
