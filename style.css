@@ -47,6 +47,10 @@
       width: 300% !important;
       padding: 0 !important;
     }
+    .main-div{
+        background-color: white;
+        background-image: none;
+    }
   
     .all {
       width: 100%;
