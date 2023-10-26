@@ -45,8 +45,8 @@
 /* Media query for screens with a maximum width of 600px */
 @media screen and (max-width: 600px) {
    .Calculater {
-      width: 300px;
-      padding: 10px !important;
+      width: 100%;
+      padding: 5px !important;
       border-radius: 5px;
 
     }
