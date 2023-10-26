@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Montserrat&family=Tektur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Montserrat:ital,wght@0,400;1,300&family=Tektur&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+
+.main-div {
+    background-image: url(Group\ 6.png);
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: Center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(8px); */
+}
+
+.Calculater {
+    width: 355px;
+    /* background-color: rgb(40, 40, 40); */
+    background-color: white;
+    padding: 10px;
+    backdrop-filter: blur(5.3px);
+    align-items: center;
+    border-radius: 15px;
+    /* box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4); */
+    box-shadow: 2px 4px 14px 4px rgba(95, 21, 21, 0.11);
+    min-height: 450px;
+    padding: 50px;
+}
+
+.all {
+    width: 310px;
+    margin: 5px auto;
+    height: 50px;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(127, 127, 127);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+
+}
+
+input::placeholder {
+    color: black;
+}
+
+button {
+    background-color: aliceblue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    /* margin:;
+    margin-top: 10px; */
+    margin: 10px 10px 0px 15px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 1px solid black;
+    position: relative;
+    box-shadow: 2px 4px 14px 4px rgba(95, 21, 21, 0.11);
+}
+
+button:hover {
+    background-color: #7A73FF;
+    ;
+}
+
+.equal {
+    background-color: #7A73FF;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.equal:hover {
+    background-color: #80E9FF;
+}
